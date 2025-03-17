@@ -1,0 +1,122 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: url('header-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .btn:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 1rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
